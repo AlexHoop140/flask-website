@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% block head %}
+	<title>{% block title %}{% endblock %} - The Unlimited
+	</title>
+	{% endblock %}
+  </body>
+</head>
+<body>
+	<div id="logo">
+		<img src="{{ url_for('static', filename='Logo.png')}}" alt="The Unlimited,.Ltd" height="100px" />  
+		<!--dùng để chèn hình vào web-->
+	</div>
+
+	{% with messages = get_flashed_messages() %}
+	{% if messages %}
+	<ul class="flash">
+		{% for messages in messages %}
+		<li>{{ messages }}</li>
+		{% endfor %}
+	</ul>
+	{% endif %}
+	{% endwith %}
+
+	<div id="content">
+		{% block content %}{% endblock %}
+	</div>
+
+<footer>
+	{% block footer %}
+	&copy; Copyright 2018 by Lê Phương Trung
+	{% endblock %}
+</footer>
+
+</body>
+</html>

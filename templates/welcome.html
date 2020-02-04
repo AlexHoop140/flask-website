@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Welcome Page{% endblock %}
+{% block content %}
+ 
+<!-- Include a polyfill for ES6 Promises (optional) for IE11, UC Browser and Android browser support -->
+	
+	<p style="color:black"> Welcome, {{ username }}
+	</p>
+	<p>
+		<button style="color:black">
+			<a href="{{ url_for('logout') }}">Log Out </a> 
+		</button>
+	</p>
+	<button class="default" id="no-one"> Click here </button>
+	<iframe width="1366" height="720" src="https://www.youtube.com/embed/vsi1ivi03sE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	<iframe width="1366" height="720" src="https://www.youtube.com/embed/1APv9t_LyOY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% endblock %}
+
+	

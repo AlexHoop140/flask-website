@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}Login Page{% endblock%}
+<h1 style="color: green">The Unlimited,.Ltd</h1>
+
+{% block content %}
+<!-- Khi dùng cho hello.py đổi lại url_for('login_user')-->
+<form action ="{{ url_for('login') }}" method="POST"> 
+	{% if error %}
+	<p style ="color:red">
+		{{ error }}
+	{% endif %}
+	</p>
+	
+	<p>
+		Username: <input type ="text/javascript" name ="username"/>
+	</p>
+	
+	<p>
+		Password: <input type ="password" name ="password">
+	</p>
+	
+	<button style ="color: red" type ="Submit" >
+	Login
+	</button>
+</form>
+{% endblock %}

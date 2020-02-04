@@ -1,0 +1,32 @@
+[33mcommit 17333950522c1e6c6483eec77b87cc878eb435ff[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: 1bc72b0 6d043a8
+Author: Le Phuong Trung <30748832+AlexHoop140@users.noreply.github.com>
+Date:   Tue Dec 31 23:13:37 2019 +0700
+
+    Merge pull request #1 from AlexHoop140/second-one
+    
+    Second one
+
+[33mcommit 6d043a82554b6780065a937738bca5a28594e805[m[33m ([m[1;31morigin/second-one[m[33m)[m
+Author: Le Phuong Trung <30748832+AlexHoop140@users.noreply.github.com>
+Date:   Tue Dec 31 23:11:22 2019 +0700
+
+    Rename beginner to beginner.txt
+
+[33mcommit 0d6260632c9dfa06675f5a8a3cc2f1047551c324[m
+Author: Le Phuong Trung <30748832+AlexHoop140@users.noreply.github.com>
+Date:   Tue Dec 31 23:10:59 2019 +0700
+
+    Create beginner
+
+[33mcommit 1bc72b048e457da1f89242eb85123750bf5cc4a8[m[33m ([m[1;31morigin/New-branch[m[33m, [m[1;32mNew-branch[m[33m)[m
+Author: AlexHoop140 <alexhoop.pro@gmail.com>
+Date:   Tue Dec 31 22:50:42 2019 +0700
+
+    version 2
+
+[33mcommit 015060b515a3117410f89fa50d69cf4ee8ea2222[m
+Author: AlexHoop140 <alexhoop.pro@gmail.com>
+Date:   Tue Dec 31 22:47:40 2019 +0700
+
+    first version
